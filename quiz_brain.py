@@ -10,11 +10,11 @@ class QuizBrain:
         user_input = input(f"Q.{self.question_number} "
                            f"{current_question.text} (True/False) : ")
         if user_input in ["True", "T", "t"] and current_question.answer == "True":
-            print("Correct answer.")
+            print("Correct answer")
             return "C"
         elif user_input in ["False", "F", "f"] and current_question.answer == "False":
-            print("Correct answer.")
+            print("Correct answer")
             return "C"
         else:
-            print("Wrong answer.")
+            print("Wrong answer")
             return "W"
