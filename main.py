@@ -21,4 +21,4 @@ for _ in question_bank:
     if user_ans == "C":
         points += 1
 
-print(f"You got {points} answers right.")
+print(f"You got {points} answers right..")
